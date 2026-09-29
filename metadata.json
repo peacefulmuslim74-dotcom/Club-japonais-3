@@ -1,0 +1,8 @@
+{
+  "name": "Senegal ISM Japan Club",
+  "description": "Site officiel du Senegal ISM Japan Club (にほんごくらぶ セネガル - The Nihongo Club, Estd 2013). Culture japonaise, manga, origami, calligraphie et langue japonaise au Sénégal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --font-primary: 'Syne', sans-serif;
+  --font-primary-tracking: -0.015em;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@theme {
+  --color-club-rose: #FF4F93;
+  --color-club-rose-dark: #D91D69;
+  --color-club-rose-light: #FFF0F5;
+  --color-club-rose-border: #FFD1E1;
+  --color-club-noir: #0A0A0A;
+  --color-club-noir-soft: #171717;
+  --color-club-blanc: #FFFFFF;
+  --color-club-paper: #FAF9F7;
+  --font-display: 'Syne', sans-serif;
+  --font-jp: 'Shippori Mincho', 'Noto Serif JP', serif;
+}
+
+/* Master editorial display typography (Locked to SYNE) */
+.font-horrendo,
+.font-display {
+  font-family: 'Syne', sans-serif;
+  letter-spacing: -0.015em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.font-jp {
+  font-family: 'Shippori Mincho', 'Noto Serif JP', serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf9f7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4F93;
+}
